@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const PORT = process.env.PORT || 3030;
 app.use(express.json()) // for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
 
@@ -11,4 +12,6 @@ app.use(express.static('public'))
 app.get('/', function(req, res) {
 res.sendFile(path.join(__dirname+'/views/index.html'))
 })
-app.listen(8080);
+app.listen(PORT, () => {
+    console.log(`server started on port ${PORT}`);
+  });
