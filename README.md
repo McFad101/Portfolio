@@ -23,9 +23,9 @@ Enter `npm install` to ensure intallation of required packages
 
 To run the application on a development server on your own machine first makes sure you are in the App directory using the command `cd App`.
 
-Use the command `npm start` to start your local server listening on port 8080  
+Use the command `npm start` to start your local server listening on port 3030  
 
-Once you've recieved confirmation the server is running open your browser to http://localhost:8080/
+Once you've recieved confirmation the server is running open your browser to http://localhost:3030/
 
 If accessing on a desktop use the vertical navbar to navigate the page or if on mobile the horizonal bar across the top of the page.
 
