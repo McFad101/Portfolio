@@ -1,0 +1,27 @@
+.top-image {
+    object-fit:cover;
+    opacity: 0.5;
+    width:100%;
+    height:auto;
+    border: solid 1px #CCC"/>
+  }
+
+.image-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cursive {
+    color: black;
+    font-size: calc(1.725rem + 5.7vw);
+    font-family:'Indie Flower';
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+  }
