@@ -6,7 +6,7 @@ app.use(express.json()) // for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
 
 //declaring the public folder
-app.use(express.static('App/public'));
+app.use(express.static('public'));
 
 // index page
 app.get('/', function(req, res) {
