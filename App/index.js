@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const PORT = process.env.PORT || 3030;
-app.use(express.json()) // for parsing application/json
-app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
+app.use(express.json()); // for parsing application/json
+app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 
 //declaring the public folder
 app.use(express.static('public/'));
