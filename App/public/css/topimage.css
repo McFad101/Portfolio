@@ -3,8 +3,13 @@
     opacity: 0.5;
     width:100%;
     height:auto;
-    border: solid 1px #CCC"/>
+    border: solid 1px #CCC"
   }
+
+.top-image-box {
+  width: 100%;
+  min-height: 50vh;
+}
 
 .image-text {
     position: absolute;
